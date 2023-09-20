@@ -232,7 +232,7 @@ body {
 }
 .section-magazine {
 	width: 100%;
-	height: 1400px;
+	padding-bottom: 13vw;
 	background-color: #fff;
 	background-image: url(/images/nav_vector.svg);
 	background-repeat: no-repeat;
@@ -282,12 +282,10 @@ body {
 }
 .section-magazine-container {
 	width: 100%;
-	height: 1270px;
 	display: flex;
 }
 .section-magazine-container-card {
-	width: 350px;
-	height: 340px;
+	width: 18.134715vw;
 	display: block;
 	position: relative;
 }
@@ -322,7 +320,7 @@ body {
 	display: inline-block;
 }
 .section-magazine-container-card h3 {
-	font-size: 20px;
+	font-size: 1.03626vw;
 	margin-bottom: 16px;
 
 	color: black;
@@ -333,25 +331,23 @@ body {
 	font-size: 10px;
 }
 .section-magazine-container-firstcard {
-	margin-top: 300px;
+	margin-top: 15.5440414vw;
 	margin-bottom: auto;
-	margin-right: 86px;
-	margin-left: 86px;
+	margin-right: 4.459vw;
+	margin-left: 4.459vw;
 }
 .section-magazine-container-bothcard {
-	width: 360px;
+	width: 18.6528vw;
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-around;
 	padding-top: 10px;
-	padding-bottom: 250px;
 	position: relative;
 }
 
 .section-magazine-container-bigcard {
-	width: 828px;
-	height: 810px;
-	margin-left: 100px;
+	width: 42.90155vw;
+	margin-left: 5.181vw;
 	margin-top: 30px;
 }
 .section-magazine-container-bigcard a {
@@ -370,7 +366,7 @@ body {
 .section-NewProducts {
 	width: 100%;
 	background-color: #f6f6f6;
-	height: 700px;
+	padding-bottom: 10vw;
 	position: relative;
 	border-radius: 5vw 5vw 0 0;
 	display: block;
@@ -379,7 +375,6 @@ body {
 }
 .section-NewProducts-navbar {
 	width: 100%;
-	height: 130px;
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -428,13 +423,11 @@ body {
 .section-NewProducts-container-penbox {
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
-	gap: 40px;
 }
 .section-NewProducts-container-pen {
-	width: 280px;
-	height: 380px;
+	width: 14.50777vw;
 	display: block;
 }
 .section-NewProducts-container-pen a {
@@ -454,10 +447,10 @@ body {
 	text-decoration: none;
 }
 .section-NewProducts-container-pen h3 {
-	font-size: 20px;
+	font-size: 1vw;
 }
 .section-NewProducts-container-penpic {
-	width: 295px;
+	width: 15.2849vw;
 	background-color: #eaeaea;
 	border-radius: 40px;
 	margin-bottom: 20px;
@@ -498,13 +491,12 @@ body {
 }
 .section-SignatureBrands-container {
 	width: 100%;
-	height: 1270px;
+
 	display: flex;
 	position: relative;
 }
 .section-SignatureBrands-container-leftpic {
-	width: 390px;
-	height: 510px;
+	width: 20.2072vw;
 	position: absolute;
 	top: 300px;
 	left: 90px;
@@ -515,8 +507,7 @@ body {
 	width: 100%;
 }
 .section-SignatureBrands-container-rightpic {
-	width: 480px;
-	height: 705px;
+	width: 24.8704vw;
 	position: absolute;
 	right: 0;
 	top: 0;
@@ -527,7 +518,7 @@ body {
 	width: 100%;
 }
 .section-SignatureBrands-container-main {
-	width: 700px;
+	width: 32vw;
 	position: absolute;
 	left: 32vw;
 	top: 60px;
@@ -559,7 +550,7 @@ body {
 	margin-right: 50px;
 }
 .section-SignatureBrands-container-main-list h3 {
-	font-size: 30px;
+	font-size: 1.5544vw;
 	color: black;
 	margin-bottom: 10px;
 }
@@ -625,7 +616,6 @@ body {
 }
 .section-FindaProduct-penbox {
 	width: 1440px;
-	height: 520px;
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 200px;
@@ -832,6 +822,7 @@ body {
 	height: 120px;
 	border-radius: 30px;
 	overflow: hidden;
+	flex-shrink: 0;
 }
 .section-News-container-main-list-picture img {
 	height: 100%;
@@ -841,7 +832,6 @@ body {
 	transition: all 0.5s ease;
 }
 .section-News-container-main-list-txt {
-	width: 800px;
 	display: block;
 	margin-left: 30px;
 }
@@ -907,13 +897,12 @@ body {
 	overflow: hidden;
 }
 .section-fans-voice {
-	width: 130px;
-	height: 35px;
+	width: 6.517vw;
 	display: flex;
 	align-items: center;
 }
 .section-fans-voice-pic {
-	height: 60px;
+	height: 3.1088vw;
 	margin-right: 10px;
 }
 .section-fans-voice-pic img {
@@ -936,7 +925,7 @@ body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	gap: 100px;
+	gap: 5vw;
 	overflow: hidden;
 }
 .section-fans-card-box {
